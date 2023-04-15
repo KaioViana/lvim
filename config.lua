@@ -1,7 +1,6 @@
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
-lvim.colorscheme = "lunar"
 -- keymappings [view all the defaults by pressing <leader>Lk]
 lvim.leader = "space"
 -- After changing plugin config exit and reopen LunarVim, Run :PackerInstall :PackerCompile
@@ -32,3 +31,4 @@ lvim.format_on_save = true
 reload("typescript.code_actions")
 reload("typescript.linters")
 reload("common.keys_map")
+reload("common.colorscheme")
