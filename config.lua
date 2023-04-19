@@ -26,9 +26,10 @@ lvim.builtin.treesitter.ensure_installed = {
 }
 lvim.builtin.treesitter.ignore_install = { "haskell" }
 lvim.builtin.treesitter.highlight.enable = true
+lvim.colorscheme = "tokyonight-storm";
 lvim.format_on_save = true
 
-reload("typescript.code_actions")
-reload("typescript.linters")
-reload("common.keys_map")
-reload("common.colorscheme")
+require("common.colorscheme")
+require("common.keys_map")
+require("typescript.code_actions")
+require("typescript.linters")

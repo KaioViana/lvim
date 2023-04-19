@@ -1,7 +1,4 @@
 lvim.plugins = {
-  'glepnir/zephyr-nvim',
-  'tjdevries/colorbuddy.vim',
-  'bkegley/gloombuddy',
-  'yonlu/omni.vim'
+  "folke/tokyonight.nvim",
 }
-lvim.colorscheme = "tokyonight-storm"
+lvim.colorscheme = "tokyonight-night"
