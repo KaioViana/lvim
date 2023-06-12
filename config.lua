@@ -31,5 +31,6 @@ lvim.format_on_save = true
 
 require("common.colorscheme")
 require("common.keys_map")
+require("common.markdow_preview")
 require("typescript.code_actions")
 require("typescript.linters")
